@@ -1,0 +1,38 @@
+[
+    {
+      "id": "1",
+      "background":false,
+      "image":"/img/lap2.png",
+      "header": "Beautifully handcrafted templates for your website",
+      "list": [
+        "Beautiful and easy to understand UI, professional animations",
+        "Theme advantages are pixel perfect design & clear code delivered",
+        "Present your services with flexible, convenient and multipurpose",
+        "Find more creative ideas for your projects",
+        "Unlimited power and customization possibilities"
+      ],
+      "svgColor":"#6f6f6f",
+      "alignment": "left",
+      "dark":false,
+      "btnContent":"ALL ADVANTAGES"
+    },
+    {
+      "id": "2",
+      "background":true,
+      "image":"/img/lap.png",
+      "header": "Unique, truly responsive and functional websites",
+      "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum has been the industry's standard dummy text.",
+      "list": [
+        "Beautiful and easy to understand UI, professional animations",
+        "Theme advantages are pixel perfect design & clear code delivered",
+        "Present your services with flexible, convenient and multipurpose",
+        "Find more creative ideas for your projects",
+        "Unlimited power and customization possibilities"
+      ],
+      "alignment": "right",
+      "svgColor":"#ff214f",
+      "dark":true,
+      "btnContent":"GET TO KNOW US"
+
+    }
+  ]

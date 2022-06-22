@@ -1,0 +1,118 @@
+.service-container .header {
+  font-weight: 700;
+  border-bottom: 1px solid #ff214f;
+  padding-bottom: 20px;
+  width: fit-content;
+}
+.service-container .caption {
+  font-size: 14px;
+  padding: 0px;
+  margin: -10px 0px;
+  color: #aaa;
+}
+.service-list {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 34%;
+  gap: 20px;
+}
+.service-img {
+  height: auto;
+  overflow: hidden;
+}
+
+.service-img img {
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+}
+.service-desc {
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* card-flip */
+
+.service-card {
+  width: 33%;
+  height: 240px;
+  perspective: 1000px;
+}
+
+.service-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.service-card:hover .service-card-inner {
+  transform: rotateX(180deg);
+}
+
+.service-card-front,
+.service-card-back {
+  position: absolute;
+  width: auto;
+  height: 100%;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.service-card-front {
+  background-color: white;
+  color: black;
+}
+
+.service-card-back {
+  background-color: #ff214f;
+  transform: rotateX(180deg);
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.service-card-back .desc {
+  color: white;
+}
+@media only screen and (max-width: 900px) {
+  .service-container {
+    min-height: 100%;
+  }
+  .service-list {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 20px;
+  }
+  .service-card {
+    width: 100%;
+    height: 400px;
+    position: relative;
+  }
+  .service-card-inner {
+    height: 320px;
+  }
+  .service-card-back,
+  .service-card-front {
+    overflow: hidden;
+    height: 100%;
+    border: 2px solid red;
+  }
+  .service-desc {
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    padding: 10px 0px;
+  }
+  .service-desc .desc {
+    margin: 10px auto;
+    text-align: center;
+  }
+}

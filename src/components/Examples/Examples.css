@@ -1,0 +1,44 @@
+.example-container {
+  min-height: 40vh;
+}
+.example-list {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.example-card {
+  border-top: 1px solid #aaa;
+  display: flex;
+  width: 20%;
+}
+
+.example-card svg {
+  margin-top: 18px;
+  margin-right: 10px;
+  font-size: 45px;
+  color: rgb(213, 213, 213);
+}
+@media only screen and (max-width: 900px) {
+  .example-container {
+    min-height: fit-content;
+  }
+  .example-list {
+    flex-direction: column;
+    border-top: 1px solid #aaa;
+    gap: 10px;
+  }
+  .example-card svg {
+    margin: 4px auto;
+  }
+  .example-card {
+    border-top: 1px solid transparent;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 60px;
+  }
+  .example-card .desc {
+    margin: 10px auto;
+  }
+}

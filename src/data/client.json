@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "name":"Alexander Harvard",
+        "image":"/img/person1.jpg",
+        "designation":"Co Founder / CEO",
+        "words":"Trust us we looked for a very long time and wasted thousands of dollars testing other teams, freelancers, and outsource companies."
+    },
+    {
+        "id":2,
+        "name":"Alexander Harvard",
+        "image":"/img/person2.jpg",
+        "designation":"Co Founder / CEO",
+        "words":"Trust us we looked for a very long time and wasted thousands of dollars testing other teams, freelancers, and outsource companies."
+    },
+    {
+        "id":3,
+        "name":"Shoko Mugikura",
+        "image":"/img/person3.jpg",
+        "designation":"Co Founder / CEO",
+        "words":"Trust us we looked for a very long time and wasted thousands of dollars testing other teams, freelancers, and outsource companies."
+    },
+    {
+        "id":4,
+        "name":"Alexander Harvard",
+        "image":"/img/person4.jpg",
+        "designation":"Co Founder / CEO",
+        "words":"Trust us we looked for a very long time and wasted thousands of dollars testing other teams, freelancers, and outsource companies."
+    }
+]

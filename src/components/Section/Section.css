@@ -1,0 +1,44 @@
+.section-container {
+  min-height: 70vh;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.section-section {
+  width: 35%;
+}
+.section-section h3,
+h2,
+p {
+  width: 100%;
+}
+.section-section img {
+  width: 90%;
+  height: 90%;
+}
+.section-section svg {
+  margin-right: 10px;
+}
+@media only screen and (max-width: 900px) {
+  .section-container {
+    min-height: fit-content;
+    flex-direction: column;
+    padding: 0px 0px 20px;
+  }
+  .section-section {
+    width: 100%;
+  }
+  .section-section h3,
+  .section-section h2,
+  .section-section p {
+    margin: 20px auto;
+    text-align: center;
+    padding: 0px 25px;
+  }
+  .section-section .btn {
+    margin: 20px auto;
+  }
+  .section-section img {
+    width: 100%;
+  }
+}

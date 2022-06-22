@@ -1,0 +1,52 @@
+.function-header {
+  text-align: center;
+  max-width: 700px;
+}
+.function-desc {
+  max-width: 600px;
+  text-align: center;
+}
+.function-card-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 85%;
+  margin: 60px auto;
+  text-align: center;
+  gap: 5em;
+}
+
+.function-card {
+  border: 1px solid rgb(196, 196, 196);
+  border-radius: 4px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.function-icon {
+  margin: 0 auto;
+  border-radius: 75px;
+  background-color: #ff214f;
+  width: 75px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.function-icon svg {
+  color: white;
+  font-size: 40px;
+}
+@media only screen and (max-width: 900px) {
+  .function-container {
+    min-height: fit-content;
+  }
+  .function-card-list {
+    flex-direction: column;
+    max-width: 100%;
+    gap: 1em;
+  }
+  .function-card {
+    padding: 60px;
+  }
+}

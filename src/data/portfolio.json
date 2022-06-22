@@ -1,0 +1,107 @@
+[
+        {
+            "image":"/img/portfolio_1.jpg",
+            "title":"Naked Soap",
+            "category":"Web and Photography",
+            "tag":[2,3,4,5],
+            "tags":{
+                "web":true,
+                "advertising":true,
+                "branding":true,
+                "design":true,
+                "photography":false
+            }
+        },
+        {
+            "image":"/img/portfolio_2.jpg",
+            "title":"Berlin Design",
+            "category":"Brading and Brochure",
+            "tag":[5,6],
+            "tags":{
+                "web":false,
+                "advertising":false,
+                "branding":false,
+                "design":true,
+                "photography":true
+            }
+        },
+        {
+            "image":"/img/portfolio_3.jpg",
+            "title":"Abstract Comics",
+            "category":"Brading and Brochure",
+            "tag":[2,4,5,6],
+            "tags":{
+                "web":true,
+                "advertising":false,
+                "branding":true,
+                "design":true,
+                "photography":true
+            }
+        },
+        {
+            "image":"/img/portfolio_4.jpg",
+            "title":"Teabag collection",
+            "category":"Web and Photography",
+            "tag":[3,4,5,6],
+            "tags":{
+                "web":false,
+                "advertising":true,
+                "branding":true,
+                "design":true,
+                "photography":true
+            }
+        },
+        {
+            "image":"/img/portfolio_5.jpg",
+            "title":"Hardott stone",
+            "category":"Branding and Identity",
+            "tag":[2,4,5],
+            "tags":{
+                "web":true,
+                "advertising":false,
+                "branding":true,
+                "design":true,
+                "photography":false
+            }
+        },
+        {
+            "image":"/img/portfolio_6.jpg",
+            "title":"Educamp School",
+            "category":"Branding and Identity",
+            "tag":[2,3,4,5,6],
+            "tags":{
+                "web":true,
+                "advertising":true,
+                "branding":true,
+                "design":true,
+                "photography":true
+            }
+        },
+        {
+            "image":"/img/portfolio_7.jpg",
+            "title":"Thirdeye glass",
+            "category":"Branding and Brochure",
+            "tag":[2,3,4,5,6],
+            "tags":{
+                "web":true,
+                "advertising":true,
+                "branding":true,
+                "design":true,
+                "photography":true
+            }
+        },
+        {
+            "image":"/img/portfolio_8.jpg",
+            "title":"Violator Series",
+            "category":"Web and Photography",
+            "tag":[2,3,4],
+            "tags":{
+                "web":true,
+                "advertising":true,
+                "branding":true,
+                "design":false,
+                "photography":false
+            }
+        }
+    ]
+

@@ -1,0 +1,50 @@
+.counter-container {
+  min-height: 40vh;
+}
+.counter-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 80%;
+}
+
+.counter-card {
+  width: fit-content;
+  display: flex;
+  width: 25%;
+}
+.counter-card .header {
+  font-size: 20px;
+  margin: 0;
+}
+.counter-card .desc {
+  font-size: 12px;
+}
+
+.counter-card svg {
+  margin-top: 0px;
+  margin-right: 10px;
+  font-size: 56px;
+  color: rgb(213, 213, 213);
+}
+@media only screen and (max-width: 900px) {
+  .counter-container {
+    min-height: fit-content;
+  }
+  .counter-list {
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+  }
+  .counter-card {
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+  }
+  .counter-card svg {
+    margin: 0 auto;
+  }
+  .counter-desc {
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,25 @@
+.blogs-container .header {
+  font-weight: 700;
+  border-bottom: 1px solid #ff214f;
+  padding-bottom: 20px;
+  width: fit-content;
+}
+.blogs-container .caption {
+  font-size: 14px;
+  padding: 0px;
+  margin: -10px 0px;
+  color: #aaa;
+}
+
+.blog-list {
+  display: flex;
+  max-width: 76%;
+  gap: 30px;
+  margin-top: 60px;
+}
+@media only screen and (max-width: 900px) {
+  .blog-list {
+    flex-direction: column;
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,42 @@
+.base-container {
+  min-height: 15vh;
+  background-color: #141414;
+  flex-direction: row;
+}
+
+.logo {
+  width: 200px;
+  height: 24px;
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+.base-container .caption-s {
+  color: #969696;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.base-container .caption-s svg {
+  color: white;
+  margin: 0px 10px;
+  font-size: 18px;
+}
+@media only screen and (max-width: 900px) {
+  .logo {
+    width: 100px;
+    height: 12px;
+  }
+  .logo img {
+    width: 100%;
+    height: 100%;
+  }
+  .base-container .caption-s {
+    font-size: 10px;
+  }
+  .base-container .caption-s svg {
+    margin: 0px 4px;
+  }
+}

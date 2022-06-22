@@ -1,0 +1,37 @@
+[
+    {
+        "id":1,
+        "image":"/img/latest-blog5.jpg",
+        "date":"25 APRIL 2017",
+        "author":"JAY BENJAMIN",
+        "title":"I like the body. I like to design everything to do with the body.",
+        "content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum text..."
+    },
+    {
+        "id":2,
+        "image":"/img/latest-blog6.jpg",
+        "date":"20 APRIL 2017 ",
+        "author":"HERMAN MILLER",
+        "title":"Styles come and go. Design is a language, not a style.",
+        "content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum text..."
+    },
+    {
+        "id":3,
+        "image":"/img/latest-blog7.jpg",
+        "date":"15 MARCH 2017 ",
+        "author":"HUGH MACLEOD",
+        "title":"Recognizing the need is the primary condition for design.",
+        "content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum text..."
+    },
+    {
+        "id":4,
+        "image":"/img/latest-blog8.jpg",
+        "date":"10 MARCH 2017",
+        "author":"JAY BENJAMIN",
+        "title":"Get in over your head as often and as joyfully as possible.",
+        "content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum text..."
+    }
+]
+
+
+

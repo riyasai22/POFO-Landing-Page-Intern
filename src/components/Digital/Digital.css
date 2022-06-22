@@ -1,0 +1,42 @@
+.digital-container {
+  min-height: 70vh;
+  flex-direction: row;
+  background: #f7f7f7;
+}
+.digital-section {
+  width: 50%;
+  padding: 70px;
+}
+
+.digital-pic {
+  height: 100%;
+  width: 50%;
+  background-size: cover;
+  background-attachment: unset;
+}
+.digital-section svg {
+  margin-right: 10px;
+}
+@media only screen and (max-width: 900px) {
+  .digital-container {
+    min-height: fit-content;
+    flex-direction: column;
+  }
+  .digital-section {
+    width: 100%;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  .digital-section h3,
+  .digital-section h2,
+  .digital-section p {
+    margin: 20px auto;
+    min-width: 90%;
+  }
+  .digital-section .btn {
+    margin: 30px auto 0px;
+  }
+  .digital-pic {
+    height: 400px;
+  }
+}

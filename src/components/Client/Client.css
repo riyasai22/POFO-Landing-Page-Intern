@@ -1,0 +1,19 @@
+.client-container {
+  background-color: #f7f7f7;
+}
+.client-container .header {
+  font-weight: 700;
+  border-bottom: 1px solid #ff214f;
+  padding-bottom: 20px;
+  width: fit-content;
+}
+.client-container .caption {
+  font-size: 14px;
+  padding: 0px;
+  margin: -10px 0px;
+  color: #aaa;
+}
+.splide {
+  max-width: 80%;
+  margin: 60px 0px;
+}

@@ -1,0 +1,58 @@
+.desc-container {
+  flex-direction: row;
+  height: 70vh;
+}
+
+.desc-wrapper {
+  display: flex;
+  width: 100%;
+}
+.desc-medheader {
+  color: white;
+}
+.desc-card {
+  flex: 1;
+  display: flex;
+  background-color: #232323;
+}
+.desc-about {
+  padding: 44px;
+}
+.desc-pic {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-attachment: unset;
+}
+.desc-caption {
+  color: #afafaf;
+}
+
+.desc-btn svg {
+  margin-right: 10px;
+}
+@media only screen and (max-width: 900px) {
+  .desc-container {
+    padding: 0px;
+    height: 100%;
+  }
+  .desc-pic {
+    height: 400px;
+  }
+  .desc-wrapper {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .desc-card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .desc-about {
+    text-align: center;
+    padding: 24px;
+  }
+  .desc-btn {
+    margin: 14px auto 0px;
+  }
+}

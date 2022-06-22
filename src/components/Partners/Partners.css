@@ -1,0 +1,25 @@
+.partners-container {
+  min-height: 40vh;
+  flex-direction: row;
+  gap: 20px;
+}
+.partner-card {
+  height: 20vh;
+  width: 100%;
+  background-size: contain;
+  background-attachment: unset;
+}
+.partners-container .splide {
+  width: 70%;
+}
+
+@media only screen and (max-width: 900px) {
+  .partners-container {
+    min-height: fit-content;
+  }
+  .partner-card {
+    height: 200px;
+    margin: 0 auto;
+    width: 200px;
+  }
+}
