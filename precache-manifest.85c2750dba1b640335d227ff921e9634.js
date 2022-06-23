@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "b437c4524c775703b0a5",
-    "url": "/POFO-Landing-Page-Intern/static/css/main.67c7d05d.chunk.css"
+    "revision": "5857490e1231e7fe21d1",
+    "url": "/POFO-Landing-Page-Intern/static/css/main.9e3bcf67.chunk.css"
   },
   {
-    "revision": "b437c4524c775703b0a5",
-    "url": "/POFO-Landing-Page-Intern/static/js/main.b437c452.chunk.js"
+    "revision": "5857490e1231e7fe21d1",
+    "url": "/POFO-Landing-Page-Intern/static/js/main.5857490e.chunk.js"
   },
   {
-    "revision": "8afb4727ff329df11540",
-    "url": "/POFO-Landing-Page-Intern/static/css/1.879bf734.chunk.css"
+    "revision": "221321db01cb83531c5b",
+    "url": "/POFO-Landing-Page-Intern/static/css/1.feb82359.chunk.css"
   },
   {
-    "revision": "8afb4727ff329df11540",
-    "url": "/POFO-Landing-Page-Intern/static/js/1.8afb4727.chunk.js"
+    "revision": "221321db01cb83531c5b",
+    "url": "/POFO-Landing-Page-Intern/static/js/1.221321db.chunk.js"
   },
   {
     "revision": "5583bd1792d2a35fd69f",
@@ -56,11 +56,7 @@ self.__precacheManifest = [
     "url": "/POFO-Landing-Page-Intern/static/media/man-lady.338716ac.jpg"
   },
   {
-    "revision": "db449f9fb9ce5b786963b2e4c35d271b",
-    "url": "/POFO-Landing-Page-Intern/static/media/banner-bg.db449f9f.jpg"
-  },
-  {
-    "revision": "e21f03e04b2bab1ea6e495aeae74ebec",
+    "revision": "e40d279e48de15987c1a09420075b3fa",
     "url": "/POFO-Landing-Page-Intern/index.html"
   }
 ];

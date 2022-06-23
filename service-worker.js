@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/POFO-Landing-Page-Intern/precache-manifest.6a1058dacaf8cf3682a355f5b84c611c.js"
+  "/POFO-Landing-Page-Intern/precache-manifest.85c2750dba1b640335d227ff921e9634.js"
 );
 
 workbox.clientsClaim();
