@@ -7,8 +7,8 @@ import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
+      <Routes basename={process.env.PUBLIC_URL}>
+        <Route exact path="/" element={<Home />}></Route>
       </Routes>
     </>
   );

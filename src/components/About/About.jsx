@@ -1,6 +1,6 @@
 import React from "react";
 
-import Image2 from "../../assets/banner-bg.jpg";
+// import Image2 from "../../assets/banner-bg.jpg";
 import BorderColorOutlinedIcon from "@mui/icons-material/BorderColorOutlined";
 import DevicesOutlinedIcon from "@mui/icons-material/DevicesOutlined";
 import "./About.css";
